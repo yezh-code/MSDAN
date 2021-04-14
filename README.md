@@ -13,9 +13,9 @@ MMD.py: It is used to define the MMD loss between source domain and target domai
 Model.py: It is used to define the base model (i.e., MSDAN).<br />
 
 # Procedure
-Firstly, run the main.py to train MSDAN and save the training loss and the prediction results. <br />
-Secondly, run the plot.py to visualize prediction results and the training loss.<br />
-Thirdly, the prediction results are saved in result folder, the trained model is saved in model folder, the visualization results are saved in figure folder.<br />
+(1) Run the main.py to train MSDAN and save the training loss and the prediction results. <br />
+(2) Run the plot.py to visualize prediction results and the training loss.<br />
+(3) The prediction results are saved in result folder, the trained model is saved in model folder, the visualization results are saved in figure folder.<br />
 
 # Data
 The details about the source and target domain for each experiment are listed in the following Table.<br />
