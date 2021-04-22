@@ -19,10 +19,12 @@ Model.py: It is used to define the base model (i.e., MSDAN).<br />
 
 # Data
 The details about the source and target domain for each experiment are listed in the following Table.<br />
-No.	Transfer direction	Source domain	Target domain<br />
-1	C2&C3→C1	Condition 2 and Condition 3	Condition 1<br />
-2	C1&C3→C2	Condition 1 and Condition 3	Condition 2<br />
-3	C1&C2→C3	Condition 1 and Condition 2	Condition 3<br />
+| No.  | Transfer  direction | Source domain                | Target domain |
+| ---- | ------------------- | ---------------------------- | ------------- |
+| 1    | C2&C3→C1            | Condition 2 and  Condition 3 | Condition 1   |
+| 2    | C1&C3→C2            | Condition 1 and  Condition 3 | Condition 2   |
+| 3    | C1&C2→C3            | Condition 1 and  Condition 2 | Condition 3   |
+
   For the target domain, three batteries are used for training, and the rest one battery is used for testing. It should be pointed out that this code is an example of transfer direction C2&C3→C1, and the battery #5 is used as the testing battery, other three batteries (i.e., #6, #7, #18) in target domain are used for training.<br />
   In the data folder, there are three domains (i.e., C1.mat, C2.mat, C3.mat), which consists of all batteries in the corresponding domain. C1.mat consists of the four batteries (#5, #6, #7, #18) in condition 1. Moreover, C1_tr1.mat denotes that three batteries (i.e., #6, #7, #18) are used for training when C1 are used as target domain, and C1_te1.mat denotes the rest battery, i.e., #5.  For example, in the transfer direction C2&C3→C1, we aim to monitor the health condition of #5. In this case, C2.mat and C3.mat are used as the source domain for training, and C1_tr1.mat is used as target domain for training, C1_te1.mat is used as target domain for testing. The detailed description about the data is summarized as following:<br />
 | Data name  | Batteries       | Data name  | Batteries          | Data name  | Batteries          |
