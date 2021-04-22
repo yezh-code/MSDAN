@@ -32,12 +32,12 @@ The details about the source and target domain for each experiment are listed in
 | C1.mat     | #5, #6, #7, #18 | C2.mat     | #29, #30, #31, #32 | C3.mat     | #45, #46, #47, #48 |
 | C1_tr1.mat | #6, #7, #18     | C2_tr1.mat | #30, #31, #32      | C3_tr1.mat | #46, #47, #48      |
 | C1_te1.mat | #5              | C2_te1.mat | #29                | C3_te1.mat | #45                |
-| C1_tr2.mat | #5, #7, #18     | C2_tr1.mat | #29, #31, #32      | C3_tr1.mat | #45, #47, #48      |
-| C1_te2.mat | #6              | C2_te1.mat | #30                | C3_te1.mat | #46,               |
-| C1_tr3.mat | #5, #6, #18     | C2_tr1.mat | #29, #30, #32      | C3_tr1.mat | #45, #46, #48      |
-| C1_te3.mat | #7              | C2_te1.mat | #31                | C3_te1.mat | #47                |
-| C1_tr4.mat | #5, #6, #7      | C2_tr1.mat | #29, #30, #31      | C3_tr1.mat | #45, #46, #47      |
-| C1_te4.mat | #18             | C2_te1.mat | #32                | C3_te1.mat | #48                |
+| C1_tr2.mat | #5, #7, #18     | C2_tr2.mat | #29, #31, #32      | C3_tr2.mat | #45, #47, #48      |
+| C1_te2.mat | #6              | C2_te2.mat | #30                | C3_te2.mat | #46,               |
+| C1_tr3.mat | #5, #6, #18     | C2_tr3.mat | #29, #30, #32      | C3_tr3.mat | #45, #46, #48      |
+| C1_te3.mat | #7              | C2_te3.mat | #31                | C3_te3.mat | #47                |
+| C1_tr4.mat | #5, #6, #7      | C2_tr4.mat | #29, #30, #31      | C3_tr4.mat | #45, #46, #47      |
+| C1_te4.mat | #18             | C2_te4.mat | #32                | C3_te4.mat | #48                |
 
 # Environment
 torch 1.2.0, Python 3.6, Numpy 1.16.2<br />
